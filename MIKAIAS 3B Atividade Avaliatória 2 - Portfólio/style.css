@@ -1,0 +1,96 @@
+#geral {
+  width: 70%;
+  margin: auto;
+  background-color: #d9d6d0;
+  color: #000000;
+  border: 2px solid #000000;
+  border-radius: 2px;
+  font-family: Verdana, Alice;
+
+  h2 {
+    text-align: center;
+    }
+
+  h4 {
+    text-align: center;
+    }
+}
+
+#cabecalho, #esquerda, #conteudo, #trabalhos, #rodapes  {
+  padding: 10px;
+  padding-right: 1px
+
+}
+
+#cabecalho {
+  background-color: #728cae;
+  border-bottom: 4px solid #000000;
+  color: #ffffff;
+}
+
+#esquerda {
+  float: left;
+  width: 15%;
+}
+
+#esquerda img {
+  float: center;
+  border: 3px solid #000000;
+  border-radius: 5%;
+}
+
+.centralizado {
+  display: block;
+  margin: 0 auto;
+}
+
+#esquerda a:link {
+  color: #000000;
+  text-decoration: none;
+}
+
+#esquerda a:visited {
+  color: #000000;
+  text-decoration: solid;
+}
+
+#esquerda a:hover {
+  color: #927259;
+  text-decoration: underline;
+}
+
+#conteudo {
+  float: left;
+  width: 63%;
+  padding: 1%;
+  border-left: 3px solid #000000;
+  border-right: 3px solid #000000;
+}
+
+#trabalhos {
+  float: left;
+  width: 17%;
+}
+
+#trabalhos a:link {
+  color: #000000;
+  text-decoration: none;
+}
+
+#trabalhos a:visited {
+  color: #000000;
+  text-decoration: solid;
+}
+
+#trabalhos a:hover {
+  color: #927259;
+  text-decoration: underline;
+}
+
+
+#rodapes {
+  clear: both;
+  color: #ffffff;
+  background-color: #728cae;
+  border-top: 4px solid #000000;
+}

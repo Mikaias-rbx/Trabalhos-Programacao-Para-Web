@@ -1,0 +1,76 @@
+<!-- Seção que mescla fale conosco e contatos-->
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Contato - Picanha Grill</title>
+    <link rel="icon" type="image/jpg" href="imagens/guiaicon.png">
+</head>
+<body>
+    <header>
+        <h1>Picanha Grill 
+            Restaurante & Pizzaria
+        </h1>
+        <nav>
+            <a href="/index.html"> HOME </a>
+            <ul>
+                <li><a href="index.html">Início - Sobre - Galeria</a></li>
+                <li><a href="cardapio.html">Cardápio</a></li>
+                <li><a href="contato.html">Fale Conosco - Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="fale_conosco">
+            <h2>Fale Conosco</h2>
+            <form action="mailto:contato@empresa.com" method="post" enctype="text/plain">
+                <div>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+    </main>
+    <!-- Seção de Contatos -->
+<section id="contatos">
+    <h2>Contatos</h2>
+    <table>
+        <tr>
+            <td style="width: 50%; vertical-align: top; padding: 20px;">
+                <h3>Picanha Grill</h3>
+                <br><br>
+                <p>Restaurante & Pizzaria. Desde 2015 oferecendo qualidade e sabor.</p>
+                <p>Endereço: QUADRA 26, SN - JARDIM BRASILIA<br>ÁGUAS LINDAS DE GOIÁS - GO</p>
+                <p>Telefone: (61) 9990-50561 | WhatsApp: (61) 99632-8077</p>
+                <p>@picanhagrillrestaurante</p>
+            </td>
+            
+            <td style="width: 50%; vertical-align: top; padding: 20px;">
+                <h3>Desenvolvedores</h3>
+                <p>Dev 1 - Front-end<br>Email: alycemoreira67@gmail.com</p>
+                <br> <img src="imagens/alyce.jpg" width="100" height="100">
+                <p>Dev 2 - Front-end<br>Email: mikaias410@gmail.com</p>
+                <br> <img src="imagens/mikaias.jpg" width="100" height="100">
+            </td>
+        </tr>
+    </table>
+</section>
+        <footer>
+            <p class="footer-direitos">&copy; 2025 Picanha Grill. Todos os direitos reservados.</p>
+       
+    </footer>
+</body>
+</html>

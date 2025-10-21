@@ -1,0 +1,64 @@
+#geral {
+  width: 700px;
+  margin: auto;
+  background-color: #8d2222;
+  color: #000000;
+  border: 2px solid #000000;
+  border-radius: 2px;
+  font-family: Verdana, Alice;
+  text-align: justify;
+
+  h2 {
+    text-align: center;
+    text-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+    }
+}
+
+#cabecalho, #esquerda, #conteudo, #rodapes {
+  padding: 10px;
+  padding-right: 1px
+
+}
+
+#cabecalho {
+  background-image: url('conteudo/banner.webp');
+
+  border-bottom: 4px solid #000000;
+  color: #db4040;
+}
+
+#esquerda {
+  float: left;
+  width: 160px;
+
+  a:visited {
+     color: #ff0000;
+            }
+
+  a:link {
+    color: #ff0000;
+    text-decoration: none;
+        }
+        
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+#conteudo {
+  float: left;
+  width: 510px;
+  border-left: 3px solid #000000;
+}
+
+.centralizado {
+  display: block;
+  margin: 0 auto;
+}
+
+#rodapes {
+  clear: both;
+  color: #db4040;
+  background-color: #8d2222;
+  border-top: 4px solid #000000;
+}
